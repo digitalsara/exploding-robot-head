@@ -39,5 +39,10 @@ body {
 
 .robot-head-left {
   left: 30px;
-  top: 30px;
+  top: 55px;
+}
+
+.robot-head-right {
+  left: 155px;
+  top: 55px;
 }
