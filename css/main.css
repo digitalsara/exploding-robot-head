@@ -41,16 +41,29 @@ body {
 .robot-head-right,
 .robot-head-left {
   width: 125px;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.robot-head-right {
+  float: right;
+  margin: -15px 60px;
 }
 
 .robot-head-left {
+  float: left;
+  margin: -15px -60px;
+}
+
+/*.robot-head-left {
   top: 55px;
+  left: 37%;
   float: left;
 }
 
 .robot-head-right {
-  left: 155px;
   top: 55px;
+  right: 50px;
   float: right;
-}
+}*/
