@@ -21,6 +21,7 @@ body {
 
 .robot {
   width: 320px;
+  height: 100%;
 }
 
 .robot-body {
@@ -36,7 +37,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 55px;
+  top: 60px;
 }
 
 .robot-head-right,
@@ -58,11 +59,15 @@ body {
 }
 
 .robot:hover > .robot-head-left {
-  left: 460px;
+  left: 315px;
   top: -7px;
 }
 
 .robot:hover > .robot-head-right {
-  left: 545px;
+  left: 400px;
   top: -7px;
+}
+
+.robot:hover > .robot-brain {
+  top: 50px;
 }
