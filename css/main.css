@@ -57,10 +57,10 @@ body {
   margin: 20px -60px;
 }
 
-.robot:hover > .robot-head-right {
-  margin: 13px 100px;
+.robot:hover > .robot-head-left {
+  margin: 10px -100px;
 }
 
-.robot:hover > .robot-head-left {
-  margin: 13px -100px;
+.robot:hover > .robot-head-right {
+  margin: 10px 100px;
 }
