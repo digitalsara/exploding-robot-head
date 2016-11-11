@@ -58,9 +58,11 @@ body {
 }
 
 .robot:hover > .robot-head-left {
-  margin: 10px -100px;
+  left: 460px;
+  top: -7px;
 }
 
 .robot:hover > .robot-head-right {
-  margin: 10px 100px;
+  left: 545px;
+  top: -7px;
 }
